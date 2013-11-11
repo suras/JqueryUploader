@@ -2,4 +2,4 @@ Options Indexes FollowSymLinks
 Options +FollowSymLinks
 Options +Indexes
 RewriteEngine On
-RewriteRule ^jqueryuploader/(.*)$ http://localhost/uploader/server/php/files/$1 [R=301,L]
+RewriteRule ^jqueryuploader/(.*)$ http://www.codingmart.com/JqueryUploader/server/php/files/$1 [R=301,L]
