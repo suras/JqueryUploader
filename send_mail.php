@@ -54,7 +54,7 @@ if( isset( $_POST['file_path'] ) ) {
     </table>
 </body>
 </html>
-'."<a href='http://www.codingmart.com/JqueryUploader/server/php/files/".$_POST['file_path']."/'>Click here to see images</a>" ;
+'."<a href='http://www.codingmart.com/JqueryUploader/jqueryuploader/".$_POST['file_path']."/'>Click here to see images</a>" ;
 
 // To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -68,7 +68,7 @@ $headers .= 'Bcc: noreply@example.com' . "\r\n";
 
 if(mail($to, $subject, $message, $headers)){
     echo "Mail Sent<br />";
-    echo "<a href='server/php/files/".$_POST['file_path']."/'>Click here to see images</a>" ;
+    echo "<a href='jqueryuploader/".$_POST['file_path']."/'>Click here to see images</a>" ;
 
 }
 else{
