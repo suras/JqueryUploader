@@ -1,7 +1,7 @@
 Options +FollowSymLinks
 Options +Indexes
 RewriteEngine On
-RewriteRule ^JqueryUploader/(.*)$ http://localhost/uploader/server/php/files/$1 [R=301,L]
+RewriteRule ^JqueryUploader/(.*)$ http://jupload/server/php/files/$1 [R=301,L]
 
 
 
