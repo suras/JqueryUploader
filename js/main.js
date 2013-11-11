@@ -23,7 +23,7 @@ $(function () {
         autoUpload: true,
         singleFileUploads: false,
         maxNumberOfFiles: 10,
-        loadImageMaxFileSize: 400000000
+        loadImageMaxFileSize: 40000000
 
     });
 
