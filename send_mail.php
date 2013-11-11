@@ -68,7 +68,7 @@ $headers .= 'Bcc: noreply@example.com' . "\r\n";
 
 if(mail($to, $subject, $message, $headers)){
     echo "Mail Sent<br />";
-    echo "<a href='JqueryUploader/".$_POST['file_path']."/'>Click here to see images</a>" ;
+    echo "<a href='server/php/files/".$_POST['file_path']."/'>Click here to see images</a>" ;
 
 }
 else{
